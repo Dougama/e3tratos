@@ -61,9 +61,21 @@ h1 {
 	padding: 0;
 	overflow-y: auto;
     white-space: nowrap;
-
-
 }
+.menu ul a{
+	text-decoration: none;
+}
+.menu ul a:hover{
+	color: #166fd1;
+}
+.menu ul a:visited{
+	color: #166fd1;
+	
+}
+.menu ul a:active{
+	color: #166fd1;
+}
+
 .menu li{
 	margin-top: 5%;
 	margin-left: 3%;
