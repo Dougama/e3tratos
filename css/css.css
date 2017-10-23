@@ -68,12 +68,12 @@ h1 {
 .menu ul a:hover{
 	color: #166fd1;
 }
+.menu ul a:active{
+	color: #166fd1;
+}
 .menu ul a:visited{
 	color: #166fd1;
 	
-}
-.menu ul a:active{
-	color: #166fd1;
 }
 
 .menu li{
