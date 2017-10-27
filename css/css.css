@@ -137,6 +137,15 @@ h1 {
 	margin: 2%;
 	margin-top: 0;
 }
+.s4 a{
+	text-decoration: none;
+}
+.s4 a:actived{
+	text-decoration: none;
+}
+.s4 a:visited{
+	text-decoration: none;	
+}
 .m{
 	margin-bottom: 0px;
 }
