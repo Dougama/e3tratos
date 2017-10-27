@@ -184,12 +184,32 @@ h1 {
 	border: solid 2px #dbb3ef;
 	border-radius: 15px;
 	margin-top: 20px;
-	height: 200px;
+	height: 140px;
+	width: auto;
+}
+.imgcemos{
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.imgfisico{
+	text-align: center;
+	padding-bottom: 15%; 
+}
+.imgcemos img{
+	height: 140px;
 	width: auto;
 }
 .imguis img{
 	height: 100px;
 	width: auto;
+}
+.imggiema{
+	text-align: center;	
+}
+.imggiema img{
+	border: solid 1px transparent;
+	border-radius: 5px;
 }
 .imge3t img{
 	height: 130px;
