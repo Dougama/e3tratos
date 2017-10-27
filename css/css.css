@@ -146,6 +146,21 @@ h1 {
 .s4 a:visited{
 	text-decoration: none;	
 }
+.pp{
+	margin: 3%;
+}
+.pp img{
+	height: 350px;
+	width: auto;
+}
+.ppj img{
+	height: 200px;
+	width: auto;
+	margin-bottom: 50px;
+}
+.posters{
+	margin-top: 55px;
+}
 .m{
 	margin-bottom: 0px;
 }
