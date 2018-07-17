@@ -1,287 +1,36 @@
-html{
-	height: 100%;
-}
-body{
-	min-height: 100%;
-	margin: 0px;
-}
-header{
-
-	border: none;
-	border-bottom: solid 1px #a3b3c5;
-	display: flex;
-	height: 8%;
-	left: 0;
-	right: 0;
-	top: 0;	
-	position: fixed;
-	background: #fff;
-}
-h1 {
-  color: #fff14b;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-     margin: 0;
-     margin: 8% 0% 8% 0%;
-}
-.logote{
-	display: flex;
-}
-.logo img{
-	display:none;
-}
-.ratos{
-	color: #166fd1;
-	text-shadow:
-   -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
-}
-.co{
-	font-size: 50%;
-	color: #000;
-	text-shadow:
-   -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
-}
-.os{
-	color: #f34949;
-	text-shadow:
-   -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
-
-}
-.menu{
-	font-family: 'Share', cursive;
-	width: 35%;
-	color: #166fd1; 
-
-}
-.mfont{
-	color: #166fd1;
-	font-family: 'Archivo Black', sans-serif;
-/*	font-family: 'Anton', sans-serif;
-	font-family: 'Paytone One', sans-serif;
-	font-family: 'Saira Extra Condensed', sans-serif; 
-	font-family: 'Passion One', cursive;*/
-}
-.menu ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	overflow-y: auto;
-    white-space: nowrap;
-}
-.menu ul a{
-	text-decoration: none;
-}
-.menu ul a:hover{
-	color: #166fd1;
-}
-.menu ul a:active{
-	color: #166fd1;
-}
-.menu ul a:visited{
-	color: #166fd1;
-	
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
-.menu li{
-	margin-top: 5%;
-	margin-left: 3%;
-	padding-right: 3%;
-	display: inline-block;
-	border-right: solid 1px #a3b3c5;
-}
-.menu li:last-child {
-	border-right: none;
-}
-.logo-tittle{
-	margin-right: 35%;
-	margin-left: 5%;	
-}
-.ss{
-	padding-top: 30%;
-	min-height: 100vh;
-	font-family: 'Share', cursive;
-}
-.s1{
-	background: #166fd1;
-	color: #fff;
-}
-.s1 img{
-    height: auto;
-    width: 100%;
-	display: block;
-	margin: 0% auto;
-	margin-top: 5%;
-	}
-
-.s2{
-	padding-top: 30%;
-	background: #c3c8ce;
-	color: #0a314a
-}
-.s2 img{
-	width: 117px;
-	height: auto;
-	float: left;
-	margin: 2%;
-	margin-top: 0;
-}
-.s4 a{
-	text-decoration: none;
-}
-.s4 a:actived{
-	text-decoration: none;
-}
-.s4 a:visited{
-	text-decoration: none;	
-}
-.pp{
-	margin: 3%;
-}
-.pp img{
-	height: 350px;
-	width: auto;
-}
-.ppj img{
-	height: 200px;
-	width: auto;
-	margin-bottom: 50px;
-}
-.posters{
-	margin-top: 55px;
-}
-.m{
-	margin-bottom: 0px;
-}
-.m:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-.s3{
-	background: #fff14b;
-}
-.qr{
-	text-align: center;
-}
-.imgradiogis{
-	min-width: 100%
-	margin: 0;
-	text-align: center;
-}
-.imgradiogis img{
-	border: solid 2px #dbb3ef;
-	border-radius: 15px;
-	margin-top: 20px;
-	height: 140px;
-	width: auto;
-}
-.imgcemos{
-	text-align: center;
-	margin-bottom: 40px;
-	margin-top: 40px;
-}
-.imgfisico{
-	text-align: center;
-	padding-bottom: 15%; 
-}
-.imgcemos img{
-	height: 140px;
-	width: auto;
-}
-.imguis img{
-	height: 100px;
-	width: auto;
-}
-.imggiema{
-	text-align: center;	
-}
-.imggiema img{
-	border: solid 1px transparent;
-	border-radius: 5px;
-}
-.imge3t img{
-	height: 130px;
-	width: auto;
+html {
+  height: 100%;
+  font-family: -apple-system,
+               BlinkMacSystemFont,
+               "Segoe UI",
+               Roboto,
+               Oxygen-Sans,
+               Ubuntu,
+               Cantarell,
+               "Helvetica Neue",
+               sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-section p{
-	text-align: justify;
-	margin: 5%;
-	margin-left: 2%;
-	margin-bottom: 0;
-    padding-bottom: 10px;
+body {
+  min-height: 100%;
+  margin: 0;
 }
-footer{
-	min-height: 50vh;
-	background: #31485e;
-	margin: 0;
-	text-align: center;
-}
-footer img{
-	padding-top: 20px;
-}
-h2{
-	margin: 0%;
-	text-align: center;
-}
-@media screen and (max-width: 550px) {
-	body{
-		margin: 0;
-	}
-    header{
-        display: block;
-        background: #fff;
-        height: 14%;
-        padding-bottom: 7px;
-    }
-    h1{
-    	margin-top: 10%;
-    	margin-bottom: 0;
-		margin-left: 10%;	
-		font-size: 2em;
-	}
-	.logo-tittle{
-		margin-right: 32%;
-	}
-	.logote{
-	display: flex;
-	}
-	.logo img{
-	display: flex;
-	margin: 0;
-	margin-top: 20px;
-	height: 35px;
-	width: auto;
-	}
-	.s2 img{
-	width: 100px;
-	height: auto;
-	}
-    .menu{
-    	width: 85%;
-    	margin-bottom: 3%;
-    	margin-left: 9%;
-    	font-size: 90%;
-    }
 
-    .menu li{
-    	display: inline-block;
-    	margin-top: 5%;
-		margin-left: 3%;
-		padding-right: 1.9%;
-	}
+button, input, textarea {
+  font: inherit;
+}
 
+h1, h2, h3, h4, p {
+  margin: 0 0 1.5rem;
 }
 
