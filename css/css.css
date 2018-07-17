@@ -34,3 +34,78 @@ h1, h2, h3, h4, p {
   margin: 0 0 1.5rem;
 }
 
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.pageLogo {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.pageLogo-title {
+  display: none;
+}
+
+.pageLogo-image-file {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.pageMenu {
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+  position: sticky;
+  top: 0;
+}
+
+.pageMenu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.pageMenu-list-item {
+  display: inline-block;
+  margin: 0 .5em;
+  padding: .8em 1em;
+}
+
+.section {
+  margin-bottom: 4.5rem;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-image {
+  display: block;
+  margin: 0 auto 1.5rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.section p {
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem 1em;
+}
+
+.footer-image-file {
+  display: block;
+  max-width: 160px;
+  height: auto;
+}
